@@ -174,25 +174,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202005172139519_InitialModel.cs" />
-    <Compile Include="Migrations\202005172139519_InitialModel.Designer.cs">
-      <DependentUpon>202005172139519_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\202005191053238_Initial.cs" />
+    <Compile Include="Migrations\202005191053238_Initial.Designer.cs">
+      <DependentUpon>202005191053238_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202005172208334_CreateGigTable.cs" />
-    <Compile Include="Migrations\202005172208334_CreateGigTable.Designer.cs">
-      <DependentUpon>202005172208334_CreateGigTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005172226190_OverrideMigrationForGigsAndGenres.cs" />
-    <Compile Include="Migrations\202005172226190_OverrideMigrationForGigsAndGenres.Designer.cs">
-      <DependentUpon>202005172226190_OverrideMigrationForGigsAndGenres.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005172238315_PopulateGenresTable.cs" />
-    <Compile Include="Migrations\202005172238315_PopulateGenresTable.Designer.cs">
-      <DependentUpon>202005172238315_PopulateGenresTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005181644285_AddForeignKeyPropertiesToGig.cs" />
-    <Compile Include="Migrations\202005181644285_AddForeignKeyPropertiesToGig.Designer.cs">
-      <DependentUpon>202005181644285_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    <Compile Include="Migrations\202005191055549_AddNameToApplicationUser.cs" />
+    <Compile Include="Migrations\202005191055549_AddNameToApplicationUser.Designer.cs">
+      <DependentUpon>202005191055549_AddNameToApplicationUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -282,20 +270,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202005172139519_InitialModel.resx">
-      <DependentUpon>202005172139519_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202005191053238_Initial.resx">
+      <DependentUpon>202005191053238_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005172208334_CreateGigTable.resx">
-      <DependentUpon>202005172208334_CreateGigTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005172226190_OverrideMigrationForGigsAndGenres.resx">
-      <DependentUpon>202005172226190_OverrideMigrationForGigsAndGenres.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005172238315_PopulateGenresTable.resx">
-      <DependentUpon>202005172238315_PopulateGenresTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005181644285_AddForeignKeyPropertiesToGig.resx">
-      <DependentUpon>202005181644285_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202005191055549_AddNameToApplicationUser.resx">
+      <DependentUpon>202005191055549_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

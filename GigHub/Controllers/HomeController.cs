@@ -9,10 +9,12 @@ namespace GigHub.Controllers
     public class HomeController : Controller
     {
         private ApplicationDbContext _context;
+
         public HomeController()
         {
             _context = new ApplicationDbContext();
         }
+
         public ActionResult Index()
         {
             var upcomingGigs = _context.Gigs

@@ -43,7 +43,7 @@ span.field-validation-error {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #ff35358c;
+    background-color: rgba(205, 40, 39, 0.55);
 }
 
 .dropdown-menu{
@@ -84,8 +84,8 @@ h6
 }
 
 .btn {
-    padding: 7px 20px;
-    font-size: 17px;
+    /*padding: 7px 20px;
+    font-size: 10px;*/
     -ms-border-radius: 7px;
     border-radius: 7px;
 }
@@ -119,7 +119,7 @@ h6
 .gigs > li .date .day {
     background:#f7f7f7;
     color:#333;
-    font-size:30px;
+    font-size:20px;
     padding:6px 12px;
 }
 

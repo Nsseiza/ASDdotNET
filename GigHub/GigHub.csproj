@@ -202,10 +202,15 @@
     <Compile Include="Migrations\202005191733449_CorrectCascadeDelete.Designer.cs">
       <DependentUpon>202005191733449_CorrectCascadeDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005210824434_AddFollowing.cs" />
+    <Compile Include="Migrations\202005210824434_AddFollowing.Designer.cs">
+      <DependentUpon>202005210824434_AddFollowing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Attendance.cs" />
+    <Compile Include="Models\Following.cs" />
     <Compile Include="ViewModels\ForgotPasswordViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\ResetPasswordViewModel.cs" />
@@ -310,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005191733449_CorrectCascadeDelete.resx">
       <DependentUpon>202005191733449_CorrectCascadeDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005210824434_AddFollowing.resx">
+      <DependentUpon>202005210824434_AddFollowing.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
